@@ -20,6 +20,7 @@ To find the best hyperparameters, GridSearchCV was used. The hyperparameters tha
 Evaluation Metrics
 The primary evaluation metric was accuracy. Models were trained and tested on three train-test splits (80/20, 50/50, 20/80) in order to analyze how different amounts of training data would impact model performance.
 ### Experiment
+***
 Student Performance Dataset
 This dataset includes numerical and categorical features. The label is the G3 (Final grade) feature, making this a classification problem. The Random Forest model outperformed the other models by effectively handling mixed data types and capturing complex interactions between features, while the Decision Tree model provided reasonable accuracy but was sensitive to hyperparameter settings such as maximum depth. The Logistic Regression model underperformed due to the dataset’s non-linear relationships, which it could not model effectively.
 ***
